@@ -1,0 +1,29 @@
+﻿生成启动时间为 2018/12/22 0:12:46。
+     1>项目“E:\CrptLab\homework3\hw3_1\hw3_1.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\hw3_1.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Visual Studio 2010\program\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BigInt.cpp main.cpp
+         BigInt.cpp
+     1>e:\crptlab\homework3\hw3_1\bigint.cpp(145): warning C4293: “<<”: Shift 计数为负或过大，其行为未定义
+     1>e:\crptlab\homework3\hw3_1\bigint.cpp(193): warning C4293: “<<”: Shift 计数为负或过大，其行为未定义
+     1>e:\crptlab\homework3\hw3_1\bigint.cpp(613): warning C4018: “<=”: 有符号/无符号不匹配
+         正在生成代码...
+         正在编译...
+         main.cpp
+         正在生成代码...
+       Link:
+         d:\Visual Studio 2010\program\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\CrptLab\homework3\hw3_1\Debug\hw3_1.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\hw3_1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\CrptLab\homework3\hw3_1\Debug\hw3_1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\CrptLab\homework3\hw3_1\Debug\hw3_1.lib" /MACHINE:X86 Debug\BigInt.obj
+         Debug\main.obj
+         LINK : 没有找到 E:\CrptLab\homework3\hw3_1\Debug\hw3_1.exe 或上一个增量链接没有生成它；正在执行完全链接
+         hw3_1.vcxproj -> E:\CrptLab\homework3\hw3_1\Debug\hw3_1.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\CrptLab\homework3\hw3_1\Debug\hw3_1.exe;#1" /manifest Debug\hw3_1.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\hw3_1.unsuccessfulbuild”。
+         正在对“Debug\hw3_1.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\CrptLab\homework3\hw3_1\hw3_1.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.74
