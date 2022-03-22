@@ -1,0 +1,81 @@
+
+           token    lexeme  lineno    pointer_to_scope
+             INT       int       3
+              ID         f       3      0x558e0d141290
+          LPAREN         (       3
+          RPAREN         )       3
+          LBRACE         {       3
+             INT       int       4
+              ID         a       4      0x558e0d145590
+       SEMICOLON         ;       4
+              ID         a       5      0x558e0d145590
+          ASSIGN         =       5
+             NUM         0       5
+       SEMICOLON         ;       5
+           WHILE     while       6
+          LPAREN         (       6
+              ID         a       6      0x558e0d145590
+            LESS         <       6
+             NUM        16       6
+          RPAREN         )       6
+          LBRACE         {       6
+              ID         a       7      0x558e0d145840
+          ASSIGN         =       7
+              ID         a       7      0x558e0d145840
+             MUL         *       7
+             NUM      2345       7
+       SEMICOLON         ;       7
+          RBRACE         }       8
+          RETURN    return       9
+              ID         a       9      0x558e0d145590
+       SEMICOLON         ;       9
+          RBRACE         }      10
+             INT       int      12
+              ID      main      12      0x558e0d141290
+          LPAREN         (      12
+          RPAREN         )      12
+          LBRACE         {      12
+             INT       int      13
+              ID   _testid      13      0x558e0d145860
+       SEMICOLON         ;      13
+              ID   _testid      14      0x558e0d145860
+          ASSIGN         =      14
+             NUM         0      14
+       SEMICOLON         ;      14
+              IF        if      15
+          LPAREN         (      15
+              ID   _testid      15      0x558e0d145860
+           EQUAL        ==      15
+             NUM         0      15
+          RPAREN         )      15
+          LBRACE         {      15
+             INT       int      16
+              ID   _testid      16      0x558e0d145880
+       SEMICOLON         ;      16
+             INT       int      17
+              ID  _testid2      17      0x558e0d145880
+       SEMICOLON         ;      17
+              ID  _testid1      18      0x558e0d145880
+          ASSIGN         =      18
+              ID  _testid1      18      0x558e0d145880
+             ADD         +      18
+             NUM         1      18
+       SEMICOLON         ;      18
+          RBRACE         }      19
+          LBRACE         {      23
+             INT       int      24
+              ID         a      24      0x558e0d1458a0
+       SEMICOLON         ;      24
+          RBRACE         }      25
+          LBRACE         {      26
+             INT       int      27
+              ID         a      27      0x558e0d1458c0
+       SEMICOLON         ;      27
+          RBRACE         }      28
+             INT       int      29
+              ID         b      29      0x558e0d145860
+       SEMICOLON         ;      29
+          RETURN    return      30
+             NUM         0      30
+       SEMICOLON         ;      30
+          RBRACE         }      31

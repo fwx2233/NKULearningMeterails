@@ -1,0 +1,30 @@
+#include<sylib.h>
+
+int testData = 3;
+const int enter = 10;
+
+int matrixAdd(int x){
+    int matrix1[2] = {1,2};
+    int matrix2[2] = {0,1};
+    int matrixResult[2] = {0,0};
+    matrix2[0] = x;
+    int indexForX1 = 0;
+    while(indexForX1 < 2){
+        matrixResult[indexForX1] = matrixResult[indexForX1] + matrix1[indexForX1] + matrix2[indexForX1];
+        indexForX1 = indexForX1 + 1;
+    }
+
+    int finalResult;
+    finalResult = matrixResult[0] + matrixResult[1];
+    return finalResult;
+}
+
+void main(){
+    int n;
+    n = getint();
+    int result;
+    result = matrixAdd(testData);
+    result = result - n;
+    putint(result);
+    putchar(enter);
+}
